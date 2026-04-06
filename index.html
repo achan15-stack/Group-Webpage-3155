@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Bio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Meet Our Team</h1>
+    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
+
+    <nav>
+        <button onclick="showSection('bios')">Team Bios</button>
+        <button onclick="showSection('vision')">Team Vision</button>
+    </nav>
+</header>
+
+<div id="bios" class="container">
+
+    <div class="card">
+        <h2>Anthony Chan</h2>
+        <img src="img/f6b8b99a3fd932329962accedfa3f9c6.jpg" class="avatar" width="100" height="100">
+        <p>Computer Science Student</p>
+        <button onclick="toggleBio('bio1')">Show Bio</button>
+        <p id="bio1" class="bio">Anthony is a Computer Science student at the University of North Carolina at Charlotte.</p>
+
+        <div class="moodboard">
+            <h3>My Moodboard</h3>
+            <div class="moodboard-grid">
+                <img src="img/python.png" width="50" height="50">
+                <img src="img/github.png" width="50" height="50">
+                <img src="img/vscode.png" width="50" height="50">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Nate Davidson</h2>
+        <img src="img/IMG_7774.jpeg" class="avatar" width="100" height="100">
+        <p>Computer Science Student</p>
+        <button onclick="toggleBio('bio2')">Show Bio</button>
+        <p id="bio2" class="bio">Nate is a Computer Science student at the University of North Carolina at Charlotte.</p>
+
+        <div class="moodboard">
+            <h3>My Moodboard</h3>
+            <div class="moodboard-grid">
+                <img src="img/python.png" width="50" height="50">
+                <img src="img/github.png" width="50" height="50">
+                <img src="img/vscode.png" width="50" height="50">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Jack Kelly</h2>
+        <img src="img/IMG_1021.JPG" class="avatar" width="100" height="100">
+        <p>Computer Science Student</p>
+        <button onclick="toggleBio('bio3')">Show Bio</button>
+        <p id="bio3" class="bio">Jack is a Computer Science student at the University of North Carolina at Charlotte.</p>
+
+        <div class="moodboard">
+            <h3>My Moodboard</h3>
+            <div class="moodboard-grid">
+                <img src="img/python.png" width="50" height="50">
+                <img src="img/github.png" width="50" height="50">
+                <img src="img/vscode.png" width="50" height="50">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Quinn Jooss</h2>
+        <img src="img/Resized_20251012_153010.jpeg" class="avatar" width="100" height="100">
+        <p>Computer Science Student</p>
+        <button onclick="toggleBio('bio4')">Show Bio</button>
+        <p id="bio4" class="bio">Quinn is a cybersecurity student at the University of North Carolina at Charlotte.</p>
+
+        <div class="moodboard">
+            <h3>My Moodboard</h3>
+            <div class="moodboard-grid">
+                <img src="img/python.png" width="50" height="50">
+                <img src="img/github.png" width="50" height="50">
+                <img src="img/vscode.png" width="50" height="50">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="vision" class="container" style="display: none;">
+    <h2>Our Mission Statement</h2>
+    <p>
+    Here at Group D, we are dedicated to quality assurance, customer satisfaction, and ease of use of our product. Our team utilizes our vast and dynamic skillsets across all fields of software engineering and database design to optimize interface experiences for all parties involved. We are devoted to applying our efforts for the most safe, efficient, and enjoyable experiences for companies and customers alike.
+    </p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
