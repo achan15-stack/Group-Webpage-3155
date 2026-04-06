@@ -1,17 +1,32 @@
 /* General page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef2ff; /* light blue */
     margin: 0;
     padding: 0;
+    color: #1f2937;
 }
 
 /* Header section styling */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: #1e3a8a; /* dark blue */
+    color: white;
+    padding: 20px;
     text-align: center;
+}
+
+/* Step 3: heading styles */
+h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #1e3a8a;
+}
+
+#vision h2 {
+    color: #9333ea;
 }
 
 /* Styling for team logo image */
@@ -60,8 +75,9 @@ header nav button:hover {
     transition: transform 0.2s;
 }
 
+
 .card:hover {
-    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 h2 {
@@ -87,4 +103,13 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+#vision {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 700px;
+    text-align: center;
 }
